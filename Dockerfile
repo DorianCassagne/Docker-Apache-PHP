@@ -27,6 +27,8 @@ RUN apt-get install -qy mc
 RUN apt-get install -qy tmux
 RUN apt-get install -qy php5-mysql
 RUN apt-get install -qy php5-mysqlnd
+RUN apt-get install -qy php5-pgsql
+
 
 
 # Install proxy Dependencies
